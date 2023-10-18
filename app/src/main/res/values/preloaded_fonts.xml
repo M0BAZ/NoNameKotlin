@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abeezee</item>
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/amatic_sc_bold</item>
+        <item>@font/andika</item>
+        <item>@font/carter_one</item>
+        <item>@font/chango</item>
+        <item>@font/freckle_face</item>
+        <item>@font/hanalei_fill</item>
+        <item>@font/inter_bold</item>
+        <item>@font/nunito_sans_bold</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/ruslan_display</item>
+        <item>@font/russo_one</item>
+        <item>@font/yanone_kaffeesatz_extralight</item>
+    </array>
+</resources>

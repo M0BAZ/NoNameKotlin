@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:shownIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Sync"
+            android:id="@+id/Sync"
+            android:icon="@drawable/ic_sync"
+            app:showAsAction="never"
+            android:orderInCategory="103"
+            />
+        <item
+            android:title="Save"
+            android:id="@+id/Save"
+            android:icon="@drawable/ic_save"
+            app:showAsAction="never"
+            android:orderInCategory="101"
+            />
+        <item
+            android:title="Search"
+            android:id="@+id/Search"
+            android:icon="@drawable/ic_search"
+            app:showAsAction="always"
+            android:orderInCategory="100"
+            />
+        <item
+            android:title="See"
+            android:id="@+id/See"
+            android:icon="@drawable/ic_see"
+            app:showAsAction="never"
+            android:orderInCategory="102"
+            />
+    </group>
+
+    <item android:title="Prof">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="about"
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_error"/>
+                <item
+                    android:title="login"
+                    android:id="@+id/login"
+                    android:icon="@drawable/ic_done"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="communic">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="share"
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_chat"/>
+                <item
+                    android:title="rateus"
+                    android:id="@+id/rateus"
+                    android:icon="@drawable/ic_circle"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

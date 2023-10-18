@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#110B2B"
+    android:orientation="vertical"
+    tools:context=".Registration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/andika"
+        android:text="Войти в аккаунт"
+        android:textColor="#dfdfdf"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_fio_auth"
+        android:layout_width="265dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введите свои ФИО"
+        android:inputType="textPersonName"
+        android:textColor="#0CC384"
+        android:textColorHint="#FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/user_password_auth"
+        android:layout_width="265dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:textColor="#0CC384"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/reg_user_button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/andika"
+        android:text="Войти"
+        android:textColor="#110B2B"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="190dp"
+        android:text="Ещё нет аккаунта?"
+        android:textColor="#636363"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/crete_acc_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Зарегистрироваться"
+        android:textColor="#5282E1"
+        android:textSize="19sp"
+        android:backgroundTint="#110B2B"/>
+
+</LinearLayout>
