@@ -37,6 +37,7 @@ class Authorisation : AppCompatActivity() {
                     userFio.text.clear()
                     userPassword.text.clear()
 
+
                     val intent = Intent(this, MainPage::class.java)
                     startActivity(intent)
 
@@ -46,4 +47,6 @@ class Authorisation : AppCompatActivity() {
             }
         }
     }
+
+
 }

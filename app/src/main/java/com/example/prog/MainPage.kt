@@ -23,7 +23,7 @@ class MainPage : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         drawerLayout = findViewById<DrawerLayout>(R.id.drawer_layout)
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
-//        toolbar.title = "Профиль"
+        toolbar.title = ""
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
@@ -34,10 +34,14 @@ class MainPage : AppCompatActivity(), NavigationView.OnNavigationItemSelectedLis
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
+
+
         if(savedInstanceState == null){
+            toolbar.title = "about"
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_countainer, AboutFragment()).commit()
             navigationView.setCheckedItem(R.id.about)
+
         }
 
 
